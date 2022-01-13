@@ -1,5 +1,5 @@
 {
-  "name": "npm-ekb-common",
+  "name": "@helsingborg-stad/npm-ekb-common",
   "version": "1.0.0",
   "description": "package containing common types and constants specific to Mitt Helsingborg - Ekonomiskt bistånd",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/helsingborg-stad/npm-ekb-common.git"
+    "url": "git://https://github.com/helsingborg-stad/npm-ekb-common.git"
   },
   "author": "",
   "license": "MIT",
@@ -22,5 +22,8 @@
   "devDependencies": {
     "typescript": "^4.5.4"
   },
-  "files": ["dist/**/*"]
+  "files": ["dist/**/*"],
+  "publishConfig": {
+    "@helsingborg-stad:registry": "https://npm.pkg.github.com"
+  }
 }
