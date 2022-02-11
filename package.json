@@ -1,9 +1,9 @@
 {
-  "name": "@helsingborg-stad/npm-ekb-common",
-  "version": "1.0.0",
-  "description": "package containing common types and constants specific to Mitt Helsingborg - Ekonomiskt bistånd",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "name": "@helsingborg-stad/npm-mh-common",
+  "version": "1.0.3-beta.5",
+  "description": "package containing common types and constants specific to Mitt Helsingborg",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://https://github.com/helsingborg-stad/npm-ekb-common.git"
+    "url": "https://github.com/helsingborg-stad/npm-mh-common.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/helsingborg-stad/npm-ekb-common/issues"
+    "url": "https://github.com/helsingborg-stad/npm-mh-common/issues"
   },
-  "homepage": "https://github.com/helsingborg-stad/npm-ekb-common#readme",
+  "homepage": "https://github.com/helsingborg-stad/npm-mh-common#readme",
   "devDependencies": {
     "typescript": "^4.5.4"
   },
-  "files": ["dist/**/*"],
+  "files": ["dist/"],
   "publishConfig": {
     "@helsingborg-stad:registry": "https://npm.pkg.github.com"
   }
